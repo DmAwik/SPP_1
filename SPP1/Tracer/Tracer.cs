@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Diagnostics;
-using System.Collections.Concurrent;
 using System.Threading;
 using System.Reflection;
 
 namespace Tracer
 {
-    public class Tracer : ITracer
+    public class TracerClass : ITracer
     {
         private TraceResult traceResult = new TraceResult();
         private Dictionary<int, Stack<(Methods, Stopwatch)>> dictionaryOfThreads = new Dictionary<int, Stack<(Methods, Stopwatch)>>();
@@ -19,6 +17,7 @@ namespace Tracer
 
         public void StartTrace()
         {
+           // Console.WriteLine("Test");
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();
 
@@ -41,6 +40,7 @@ namespace Tracer
 
         public void StopTrace()
         {
+            // Console.WriteLine("Test");
             int ThreadId = Thread.CurrentThread.ManagedThreadId;
             (Methods ThisMethod, Stopwatch stopwatch) = dictionaryOfThreads[ThreadId].Pop();
             stopwatch.Stop();
@@ -54,6 +54,7 @@ namespace Tracer
                     PreMethod.Methods = new List<Methods>();
                 }
                 PreMethod.Methods.Add(ThisMethod);
+                // Console.WriteLine("Test");
             }
             else
             {
@@ -64,9 +65,9 @@ namespace Tracer
                 }
                 traceResult.Threads[ThreadIndex].Methods.Add(ThisMethod);
                 traceResult.Threads[ThreadIndex].Time += ThisMethod.Time;
+                // Console.WriteLine("Test");
             }
         }
     }
-    }
- 
 }
+ 

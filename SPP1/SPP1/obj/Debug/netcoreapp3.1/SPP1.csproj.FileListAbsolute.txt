@@ -12,3 +12,7 @@ C:\Users\Йа\Desktop\SPP1\SPP1\SPP1\obj\Debug\netcoreapp3.1\SPP1.csproj.CoreCom
 C:\Users\Йа\Desktop\SPP1\SPP1\SPP1\obj\Debug\netcoreapp3.1\SPP1.dll
 C:\Users\Йа\Desktop\SPP1\SPP1\SPP1\obj\Debug\netcoreapp3.1\SPP1.pdb
 C:\Users\Йа\Desktop\SPP1\SPP1\SPP1\obj\Debug\netcoreapp3.1\SPP1.genruntimeconfig.cache
+C:\Users\Йа\Desktop\SPP1\SPP1\SPP1\bin\Debug\netcoreapp3.1\Tracer.dll
+C:\Users\Йа\Desktop\SPP1\SPP1\SPP1\bin\Debug\netcoreapp3.1\Tracer.pdb
+C:\Users\Йа\Desktop\SPP1\SPP1\SPP1\obj\Debug\netcoreapp3.1\SPP1.csproj.CopyComplete
+C:\Users\Йа\Desktop\SPP1\SPP1\SPP1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SPP1.Serilize
+namespace SPP1.Serialize
 {
-    interface ISerialize
+    public interface ISerializer
     {
         public string Serialize(object obj);
     }

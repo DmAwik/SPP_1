@@ -1,0 +1,99 @@
+{
+  "Threads": [
+    {
+      "id": 1,
+      "Time": 412,
+      "Methods": [
+        {
+          "Name": "Main",
+          "Class": "Program",
+          "Time": 412,
+          "Methods": [
+            {
+              "Name": "FirstTestMethod",
+              "Class": "FirstTestClass",
+              "Time": 355,
+              "Methods": [
+                {
+                  "Name": "FirstTestMethod",
+                  "Class": "FirstTestClass",
+                  "Time": 254,
+                  "Methods": [
+                    {
+                      "Name": "FirstTestMethod",
+                      "Class": "FirstTestClass",
+                      "Time": 153,
+                      "Methods": [
+                        {
+                          "Name": "FirstTestMethod",
+                          "Class": "FirstTestClass",
+                          "Time": 51,
+                          "Methods": null
+                        },
+                        {
+                          "Name": "InnerMethod",
+                          "Class": "Bar",
+                          "Time": 50,
+                          "Methods": null
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "InnerMethod",
+                      "Class": "Bar",
+                      "Time": 50,
+                      "Methods": null
+                    }
+                  ]
+                },
+                {
+                  "Name": "InnerMethod",
+                  "Class": "Bar",
+                  "Time": 50,
+                  "Methods": null
+                }
+              ]
+            },
+            {
+              "Name": "InnerMethod",
+              "Class": "Bar",
+              "Time": 50,
+              "Methods": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "Time": 50,
+      "Methods": [
+        {
+          "Name": "InnerMethod",
+          "Class": "Bar",
+          "Time": 50,
+          "Methods": null
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "Time": 101,
+      "Methods": [
+        {
+          "Name": "MyMethod",
+          "Class": "Foo",
+          "Time": 101,
+          "Methods": [
+            {
+              "Name": "InnerMethod",
+              "Class": "Bar",
+              "Time": 50,
+              "Methods": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

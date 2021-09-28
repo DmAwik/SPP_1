@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
+﻿
 namespace Tracer
 {
-    interface ITracer
+    public interface ITracer
     {
         void StartTrace();
         void StopTrace();

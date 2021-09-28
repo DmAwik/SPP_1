@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading;
 using Tracer;
+using SPP1.Serialize;
 
 namespace SPP1
 {
@@ -8,7 +9,7 @@ namespace SPP1
     {
         static void Main(string[] args)
         {
-            Tracer tracer = new Tracer();
+            TracerClass tracer = new TracerClass();
 
             Foo _foo = new Foo(tracer);
             Bar _bar = new Bar(tracer);
@@ -29,6 +30,24 @@ namespace SPP1
             thirdThread.Join();
 
             TraceResult traceResult = tracer.GetTraceResult();
+
+            ISerializer serializerJson = new JsonSerializer();
+            ISerializer serializerXml = new MyXmlSerializer();
+            IWriter consoleWriter = new ConsoleWriter();
+            IWriter fileWriter = new FileWriter(Environment.CurrentDirectory + "\\" + "FileName" + "." + "txt");
+            IWriter fileWriter1 = new FileWriter(Environment.CurrentDirectory + "\\" + "FileName" + "." + "json");
+            IWriter fileWriter2 = new FileWriter(Environment.CurrentDirectory + "\\" + "FileName" + "." + "xml");
+
+            string json = serializerJson.Serialize(traceResult);
+            string xml = serializerXml.Serialize(traceResult);
+
+            consoleWriter.Write(json);
+            consoleWriter.Write(xml);
+
+            fileWriter.Write(json);
+            fileWriter1.Write(json);
+            fileWriter2.Write(xml);
+            //fileWriter.Write(xml);
         }
     }
     public class Foo
@@ -72,7 +91,7 @@ namespace SPP1
         private ITracer _tracer;
         private Bar _bar;
         private int n = 3;
-
+        // Console.WriteLine("Test");
         internal FirstTestClass(ITracer tracer)
         {
             _tracer = tracer;
@@ -81,6 +100,7 @@ namespace SPP1
 
         public void FirstTestMethod()
         {
+            // Console.WriteLine("Test");
             _tracer.StartTrace();
             while (n != 0)
             {
