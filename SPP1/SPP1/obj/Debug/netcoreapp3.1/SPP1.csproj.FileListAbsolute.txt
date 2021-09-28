@@ -1,0 +1,14 @@
+C:\Users\Йа\Desktop\SPP1\SPP1\SPP1\bin\Debug\netcoreapp3.1\SPP1.exe
+C:\Users\Йа\Desktop\SPP1\SPP1\SPP1\bin\Debug\netcoreapp3.1\SPP1.deps.json
+C:\Users\Йа\Desktop\SPP1\SPP1\SPP1\bin\Debug\netcoreapp3.1\SPP1.runtimeconfig.json
+C:\Users\Йа\Desktop\SPP1\SPP1\SPP1\bin\Debug\netcoreapp3.1\SPP1.runtimeconfig.dev.json
+C:\Users\Йа\Desktop\SPP1\SPP1\SPP1\bin\Debug\netcoreapp3.1\SPP1.dll
+C:\Users\Йа\Desktop\SPP1\SPP1\SPP1\bin\Debug\netcoreapp3.1\SPP1.pdb
+C:\Users\Йа\Desktop\SPP1\SPP1\SPP1\obj\Debug\netcoreapp3.1\SPP1.csproj.AssemblyReference.cache
+C:\Users\Йа\Desktop\SPP1\SPP1\SPP1\obj\Debug\netcoreapp3.1\SPP1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Йа\Desktop\SPP1\SPP1\SPP1\obj\Debug\netcoreapp3.1\SPP1.AssemblyInfoInputs.cache
+C:\Users\Йа\Desktop\SPP1\SPP1\SPP1\obj\Debug\netcoreapp3.1\SPP1.AssemblyInfo.cs
+C:\Users\Йа\Desktop\SPP1\SPP1\SPP1\obj\Debug\netcoreapp3.1\SPP1.csproj.CoreCompileInputs.cache
+C:\Users\Йа\Desktop\SPP1\SPP1\SPP1\obj\Debug\netcoreapp3.1\SPP1.dll
+C:\Users\Йа\Desktop\SPP1\SPP1\SPP1\obj\Debug\netcoreapp3.1\SPP1.pdb
+C:\Users\Йа\Desktop\SPP1\SPP1\SPP1\obj\Debug\netcoreapp3.1\SPP1.genruntimeconfig.cache

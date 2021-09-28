@@ -1,0 +1,13 @@
+C:\Users\Йа\Desktop\SPP1\SPP1\Tracer\bin\Debug\netcoreapp3.1\Tracer.exe
+C:\Users\Йа\Desktop\SPP1\SPP1\Tracer\bin\Debug\netcoreapp3.1\Tracer.deps.json
+C:\Users\Йа\Desktop\SPP1\SPP1\Tracer\bin\Debug\netcoreapp3.1\Tracer.runtimeconfig.json
+C:\Users\Йа\Desktop\SPP1\SPP1\Tracer\bin\Debug\netcoreapp3.1\Tracer.runtimeconfig.dev.json
+C:\Users\Йа\Desktop\SPP1\SPP1\Tracer\bin\Debug\netcoreapp3.1\Tracer.dll
+C:\Users\Йа\Desktop\SPP1\SPP1\Tracer\bin\Debug\netcoreapp3.1\Tracer.pdb
+C:\Users\Йа\Desktop\SPP1\SPP1\Tracer\obj\Debug\netcoreapp3.1\Tracer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Йа\Desktop\SPP1\SPP1\Tracer\obj\Debug\netcoreapp3.1\Tracer.AssemblyInfoInputs.cache
+C:\Users\Йа\Desktop\SPP1\SPP1\Tracer\obj\Debug\netcoreapp3.1\Tracer.AssemblyInfo.cs
+C:\Users\Йа\Desktop\SPP1\SPP1\Tracer\obj\Debug\netcoreapp3.1\Tracer.csproj.CoreCompileInputs.cache
+C:\Users\Йа\Desktop\SPP1\SPP1\Tracer\obj\Debug\netcoreapp3.1\Tracer.dll
+C:\Users\Йа\Desktop\SPP1\SPP1\Tracer\obj\Debug\netcoreapp3.1\Tracer.pdb
+C:\Users\Йа\Desktop\SPP1\SPP1\Tracer\obj\Debug\netcoreapp3.1\Tracer.genruntimeconfig.cache
