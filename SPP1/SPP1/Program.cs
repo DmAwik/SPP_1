@@ -47,7 +47,6 @@ namespace SPP1
             fileWriter.Write(json);
             fileWriter1.Write(json);
             fileWriter2.Write(xml);
-            //fileWriter.Write(xml);
         }
     }
     public class Foo
