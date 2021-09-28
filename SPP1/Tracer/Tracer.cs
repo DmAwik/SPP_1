@@ -2,13 +2,14 @@
 using System.Diagnostics;
 using System.Threading;
 using System.Reflection;
+using System.Collections.Concurrent;
 
 namespace Tracer
 {
     public class TracerClass : ITracer
     {
         private TraceResult traceResult = new TraceResult();
-        private Dictionary<int, Stack<(Methods, Stopwatch)>> dictionaryOfThreads = new Dictionary<int, Stack<(Methods, Stopwatch)>>();
+        private ConcurrentDictionary<int, Stack<(Methods, Stopwatch)>> dictionaryOfThreads = new ConcurrentDictionary<int, Stack<(Methods, Stopwatch)>>();
 
         public TraceResult GetTraceResult()
         {

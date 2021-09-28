@@ -2,38 +2,38 @@
   "Threads": [
     {
       "id": 1,
-      "Time": 438,
+      "Time": 429,
       "Methods": [
         {
           "Name": "Main",
           "Class": "Program",
-          "Time": 438,
+          "Time": 429,
           "Methods": [
             {
               "Name": "FirstTestMethod",
               "Class": "FirstTestClass",
-              "Time": 361,
+              "Time": 356,
               "Methods": [
                 {
                   "Name": "FirstTestMethod",
                   "Class": "FirstTestClass",
-                  "Time": 260,
+                  "Time": 255,
                   "Methods": [
                     {
                       "Name": "FirstTestMethod",
                       "Class": "FirstTestClass",
-                      "Time": 158,
+                      "Time": 154,
                       "Methods": [
                         {
                           "Name": "FirstTestMethod",
                           "Class": "FirstTestClass",
-                          "Time": 55,
+                          "Time": 52,
                           "Methods": null
                         },
                         {
                           "Name": "InnerMethod",
                           "Class": "Bar",
-                          "Time": 51,
+                          "Time": 50,
                           "Methods": null
                         }
                       ]
@@ -41,7 +41,7 @@
                     {
                       "Name": "InnerMethod",
                       "Class": "Bar",
-                      "Time": 51,
+                      "Time": 50,
                       "Methods": null
                     }
                   ]
@@ -65,7 +65,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": 6,
       "Time": 51,
       "Methods": [
         {
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 5,
       "Time": 101,
       "Methods": [
         {

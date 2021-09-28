@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-16"?>
 <root>
-  <thread time="438" id="1">
-    <method time="438" name="Main" class="Program">
-      <method time="361" name="FirstTestMethod" class="FirstTestClass">
-        <method time="260" name="FirstTestMethod" class="FirstTestClass">
-          <method time="158" name="FirstTestMethod" class="FirstTestClass">
-            <method time="55" name="FirstTestMethod" class="FirstTestClass" />
-            <method time="51" name="InnerMethod" class="Bar" />
+  <thread time="429" id="1">
+    <method time="429" name="Main" class="Program">
+      <method time="356" name="FirstTestMethod" class="FirstTestClass">
+        <method time="255" name="FirstTestMethod" class="FirstTestClass">
+          <method time="154" name="FirstTestMethod" class="FirstTestClass">
+            <method time="52" name="FirstTestMethod" class="FirstTestClass" />
+            <method time="50" name="InnerMethod" class="Bar" />
           </method>
-          <method time="51" name="InnerMethod" class="Bar" />
+          <method time="50" name="InnerMethod" class="Bar" />
         </method>
         <method time="50" name="InnerMethod" class="Bar" />
       </method>
       <method time="50" name="InnerMethod" class="Bar" />
     </method>
   </thread>
-  <thread time="51" id="7">
+  <thread time="51" id="6">
     <method time="51" name="InnerMethod" class="Bar" />
   </thread>
-  <thread time="101" id="6">
+  <thread time="101" id="5">
     <method time="101" name="MyMethod" class="Foo">
       <method time="50" name="InnerMethod" class="Bar" />
     </method>
