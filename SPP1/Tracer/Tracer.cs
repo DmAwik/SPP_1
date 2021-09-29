@@ -41,7 +41,6 @@ namespace Tracer
 
         public void StopTrace()
         {
-            // Console.WriteLine("Test");
             int ThreadId = Thread.CurrentThread.ManagedThreadId;
             (Methods ThisMethod, Stopwatch stopwatch) = dictionaryOfThreads[ThreadId].Pop();
             stopwatch.Stop();
@@ -55,7 +54,7 @@ namespace Tracer
                     PreMethod.Methods = new List<Methods>();
                 }
                 PreMethod.Methods.Add(ThisMethod);
-                // Console.WriteLine("Test");
+ 
             }
             else
             {
@@ -66,7 +65,6 @@ namespace Tracer
                 }
                 traceResult.Threads[ThreadIndex].Methods.Add(ThisMethod);
                 traceResult.Threads[ThreadIndex].Time += ThisMethod.Time;
-                // Console.WriteLine("Test");
             }
         }
     }

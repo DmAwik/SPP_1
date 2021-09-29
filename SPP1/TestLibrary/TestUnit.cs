@@ -38,7 +38,19 @@ namespace TestLibrary
         {
             Assert.Pass();
         }
+        [Test]
+        public void Test_ThreadCount_3()
+        {
+            Assert.AreEqual(3, traceResult.Threads.Count);
+        }
 
+        
+        [Test]
+        public void Test_MethodInfo_Bar_InnerMethod()
+        {
+            Assert.AreEqual("InnerMethod", traceResult.Threads[0].Methods[0].Methods[1].Name, "Wrong method name");
+            Assert.AreEqual("Bar", traceResult.Threads[0].Methods[0].Methods[1].Class, "Wrong class name");
+        }
         [Test]
         public void TestExecutionTime()
         {

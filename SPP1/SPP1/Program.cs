@@ -21,13 +21,13 @@ namespace SPP1
             tracer.StopTrace();
 
             Thread secondThread = new Thread(new ThreadStart(_foo.MyMethod));
-            secondThread.Start();
+          secondThread.Start();
 
-            Thread thirdThread = new Thread(new ThreadStart(_bar.InnerMethod));
-            thirdThread.Start();
+           Thread thirdThread = new Thread(new ThreadStart(_bar.InnerMethod));
+           thirdThread.Start();
 
-            secondThread.Join();
-            thirdThread.Join();
+           secondThread.Join();
+           thirdThread.Join();
 
             TraceResult traceResult = tracer.GetTraceResult();
 
@@ -40,7 +40,7 @@ namespace SPP1
 
             string json = serializerJson.Serialize(traceResult);
             string xml = serializerXml.Serialize(traceResult);
-
+ 
             consoleWriter.Write(json);
             consoleWriter.Write(xml);
 

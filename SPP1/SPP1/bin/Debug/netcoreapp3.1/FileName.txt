@@ -12,12 +12,12 @@
             {
               "Name": "FirstTestMethod",
               "Class": "FirstTestClass",
-              "Time": 356,
+              "Time": 359,
               "Methods": [
                 {
                   "Name": "FirstTestMethod",
                   "Class": "FirstTestClass",
-                  "Time": 255,
+                  "Time": 258,
                   "Methods": [
                     {
                       "Name": "FirstTestMethod",
@@ -27,7 +27,7 @@
                         {
                           "Name": "FirstTestMethod",
                           "Class": "FirstTestClass",
-                          "Time": 52,
+                          "Time": 51,
                           "Methods": null
                         },
                         {
@@ -41,7 +41,7 @@
                     {
                       "Name": "InnerMethod",
                       "Class": "Bar",
-                      "Time": 50,
+                      "Time": 53,
                       "Methods": null
                     }
                   ]
@@ -65,7 +65,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": 7,
       "Time": 51,
       "Methods": [
         {
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 6,
       "Time": 101,
       "Methods": [
         {

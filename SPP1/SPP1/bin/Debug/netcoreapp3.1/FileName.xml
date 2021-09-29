@@ -1,26 +1,93 @@
 <?xml version="1.0" encoding="utf-16"?>
-<root>
-  <thread time="429" id="1">
-    <method time="429" name="Main" class="Program">
-      <method time="356" name="FirstTestMethod" class="FirstTestClass">
-        <method time="255" name="FirstTestMethod" class="FirstTestClass">
-          <method time="154" name="FirstTestMethod" class="FirstTestClass">
-            <method time="52" name="FirstTestMethod" class="FirstTestClass" />
-            <method time="50" name="InnerMethod" class="Bar" />
-          </method>
-          <method time="50" name="InnerMethod" class="Bar" />
-        </method>
-        <method time="50" name="InnerMethod" class="Bar" />
-      </method>
-      <method time="50" name="InnerMethod" class="Bar" />
-    </method>
-  </thread>
-  <thread time="51" id="6">
-    <method time="51" name="InnerMethod" class="Bar" />
-  </thread>
-  <thread time="101" id="5">
-    <method time="101" name="MyMethod" class="Foo">
-      <method time="50" name="InnerMethod" class="Bar" />
-    </method>
-  </thread>
-</root>
+<TraceResult>
+  <Threads>
+    <Threads>
+      <Time>429</Time>
+      <Methods>
+        <Methods>
+          <Time>429</Time>
+          <Methods>
+            <Methods>
+              <Time>359</Time>
+              <Methods>
+                <Methods>
+                  <Time>258</Time>
+                  <Methods>
+                    <Methods>
+                      <Time>154</Time>
+                      <Methods>
+                        <Methods>
+                          <Time>51</Time>
+                          <Name>FirstTestMethod</Name>
+                          <Class>FirstTestClass</Class>
+                        </Methods>
+                        <Methods>
+                          <Time>50</Time>
+                          <Name>InnerMethod</Name>
+                          <Class>Bar</Class>
+                        </Methods>
+                      </Methods>
+                      <Name>FirstTestMethod</Name>
+                      <Class>FirstTestClass</Class>
+                    </Methods>
+                    <Methods>
+                      <Time>53</Time>
+                      <Name>InnerMethod</Name>
+                      <Class>Bar</Class>
+                    </Methods>
+                  </Methods>
+                  <Name>FirstTestMethod</Name>
+                  <Class>FirstTestClass</Class>
+                </Methods>
+                <Methods>
+                  <Time>50</Time>
+                  <Name>InnerMethod</Name>
+                  <Class>Bar</Class>
+                </Methods>
+              </Methods>
+              <Name>FirstTestMethod</Name>
+              <Class>FirstTestClass</Class>
+            </Methods>
+            <Methods>
+              <Time>50</Time>
+              <Name>InnerMethod</Name>
+              <Class>Bar</Class>
+            </Methods>
+          </Methods>
+          <Name>Main</Name>
+          <Class>Program</Class>
+        </Methods>
+      </Methods>
+      <id>1</id>
+    </Threads>
+    <Threads>
+      <Time>51</Time>
+      <Methods>
+        <Methods>
+          <Time>51</Time>
+          <Name>InnerMethod</Name>
+          <Class>Bar</Class>
+        </Methods>
+      </Methods>
+      <id>7</id>
+    </Threads>
+    <Threads>
+      <Time>101</Time>
+      <Methods>
+        <Methods>
+          <Time>101</Time>
+          <Methods>
+            <Methods>
+              <Time>50</Time>
+              <Name>InnerMethod</Name>
+              <Class>Bar</Class>
+            </Methods>
+          </Methods>
+          <Name>MyMethod</Name>
+          <Class>Foo</Class>
+        </Methods>
+      </Methods>
+      <id>6</id>
+    </Threads>
+  </Threads>
+</TraceResult>

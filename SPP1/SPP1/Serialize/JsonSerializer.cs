@@ -12,6 +12,7 @@ namespace SPP1.Serialize
         public string Serialize(object obj)
         {
             return JsonConvert.SerializeObject(obj, JsonSettings);
+          
         }
     }
 }
